@@ -12,6 +12,14 @@
 		2A5C009F1F493D1800FFD995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5C009D1F493D1800FFD995 /* Main.storyboard */; };
 		2A5C00A11F493D1800FFD995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5C00A01F493D1800FFD995 /* Assets.xcassets */; };
 		2A5C00A41F493D1800FFD995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5C00A21F493D1800FFD995 /* LaunchScreen.storyboard */; };
+		2A5C00AE1F493DF100FFD995 /* orderByItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C00AD1F493DF100FFD995 /* orderByItemData.swift */; };
+		2A5C00B01F49F67600FFD995 /* ViewController_P1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C00AF1F49F67600FFD995 /* ViewController_P1.swift */; };
+		2A5C00B21F49F74F00FFD995 /* conAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C00B11F49F74F00FFD995 /* conAPI.swift */; };
+		2A5C00B61F4A3B1E00FFD995 /* amountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C00B51F4A3B1E00FFD995 /* amountData.swift */; };
+		2A5C00B81F4A5DBE00FFD995 /* ViewController_P2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C00B71F4A5DBE00FFD995 /* ViewController_P2.swift */; };
+		2A5C00BA1F4AA96600FFD995 /* UIRoundPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C00B91F4AA96600FFD995 /* UIRoundPrimaryButton.swift */; };
+		2A5C00BC1F4B5EE900FFD995 /* TableViewCell_OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C00BB1F4B5EE900FFD995 /* TableViewCell_OrderList.swift */; };
+		2A5C00BE1F4B7F9D00FFD995 /* TableViewCell_QuantityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C00BD1F4B7F9D00FFD995 /* TableViewCell_QuantityList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		2A5C00A01F493D1800FFD995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A5C00A31F493D1800FFD995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A5C00A51F493D1800FFD995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5C00AD1F493DF100FFD995 /* orderByItemData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orderByItemData.swift; sourceTree = "<group>"; };
+		2A5C00AF1F49F67600FFD995 /* ViewController_P1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController_P1.swift; path = ../ViewController_P1.swift; sourceTree = "<group>"; };
+		2A5C00B11F49F74F00FFD995 /* conAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conAPI.swift; sourceTree = "<group>"; };
+		2A5C00B51F4A3B1E00FFD995 /* amountData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = amountData.swift; sourceTree = "<group>"; };
+		2A5C00B71F4A5DBE00FFD995 /* ViewController_P2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_P2.swift; sourceTree = "<group>"; };
+		2A5C00B91F4AA96600FFD995 /* UIRoundPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRoundPrimaryButton.swift; sourceTree = "<group>"; };
+		2A5C00BB1F4B5EE900FFD995 /* TableViewCell_OrderList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell_OrderList.swift; sourceTree = "<group>"; };
+		2A5C00BD1F4B7F9D00FFD995 /* TableViewCell_QuantityList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell_QuantityList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,38 @@
 		2A5C00981F493D1800FFD995 /* shopify_MijuJang */ = {
 			isa = PBXGroup;
 			children = (
+				2A5C00AC1F493D9500FFD995 /* Data */,
+				2A5C00AB1F493D7B00FFD995 /* Helper */,
 				2A5C00991F493D1800FFD995 /* AppDelegate.swift */,
+				2A5C00AF1F49F67600FFD995 /* ViewController_P1.swift */,
 				2A5C009B1F493D1800FFD995 /* ViewController.swift */,
 				2A5C009D1F493D1800FFD995 /* Main.storyboard */,
 				2A5C00A01F493D1800FFD995 /* Assets.xcassets */,
 				2A5C00A21F493D1800FFD995 /* LaunchScreen.storyboard */,
 				2A5C00A51F493D1800FFD995 /* Info.plist */,
+				2A5C00B71F4A5DBE00FFD995 /* ViewController_P2.swift */,
+				2A5C00BB1F4B5EE900FFD995 /* TableViewCell_OrderList.swift */,
+				2A5C00BD1F4B7F9D00FFD995 /* TableViewCell_QuantityList.swift */,
 			);
 			path = shopify_MijuJang;
+			sourceTree = "<group>";
+		};
+		2A5C00AB1F493D7B00FFD995 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C00B11F49F74F00FFD995 /* conAPI.swift */,
+				2A5C00B91F4AA96600FFD995 /* UIRoundPrimaryButton.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		2A5C00AC1F493D9500FFD995 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C00AD1F493DF100FFD995 /* orderByItemData.swift */,
+				2A5C00B51F4A3B1E00FFD995 /* amountData.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +177,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5C009C1F493D1800FFD995 /* ViewController.swift in Sources */,
+				2A5C00B81F4A5DBE00FFD995 /* ViewController_P2.swift in Sources */,
+				2A5C00B61F4A3B1E00FFD995 /* amountData.swift in Sources */,
+				2A5C00BC1F4B5EE900FFD995 /* TableViewCell_OrderList.swift in Sources */,
+				2A5C00BA1F4AA96600FFD995 /* UIRoundPrimaryButton.swift in Sources */,
+				2A5C00B21F49F74F00FFD995 /* conAPI.swift in Sources */,
+				2A5C00BE1F4B7F9D00FFD995 /* TableViewCell_QuantityList.swift in Sources */,
+				2A5C00B01F49F67600FFD995 /* ViewController_P1.swift in Sources */,
 				2A5C009A1F493D1800FFD995 /* AppDelegate.swift in Sources */,
+				2A5C00AE1F493DF100FFD995 /* orderByItemData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
